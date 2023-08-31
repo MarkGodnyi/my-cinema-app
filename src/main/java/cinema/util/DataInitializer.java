@@ -28,8 +28,12 @@ public class DataInitializer {
         roleService.add(userRole);
         User admin = new User();
         admin.setRoles(Set.of(adminRole, userRole));
-        admin.setPassword("1111");
+        admin.setPassword("12345678");
         admin.setEmail("nigel@gmail.com");
+        User user = new User();
+        user.setRoles(Set.of(userRole));
+        user.setEmail("bob@in.ua");
+        user.setPassword("12345678");
         userService.add(admin);
     }
 }
