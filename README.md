@@ -1,8 +1,8 @@
 # Cinema-app
 ## Description
 ***
-**The cinema app is web-based application that allow users to view movie session details and make orders. 
-The application is build on both SOLID and REST concepts and leverages the Spring and Hibernate frameworks, guaranteeing a streamlined and efficient user interaction. 
+**The cinema app is a web-based application that allows users to view movie session details and make orders. 
+The application is built on both SOLID and REST concepts and leverages the Spring and Hibernate frameworks, guaranteeing streamlined and efficient user interaction. 
 Role-based authentication ensures that resource access aligns with user privileges.**
 ## Project Structure
 ***
@@ -21,7 +21,7 @@ dictating which roles have access to specific HTTP methods, enhancing security a
 ## Features
 These are all requests that can be handled by this app. They are listed below:
 
-| Role       | Http method | Endpoint                       | Path variable, Request param | Json body                       | Description                            |
+| Role       | HTTP method | Endpoint                       | Path variable, Request param | Json body                       | Description                            |
 |------------|-------------|--------------------------------|------------------------------|---------------------------------|----------------------------------------|
 | ADMIN      | POST        | /cinema-halls                  |                              | capacity, description           | add cinema hall to db                  |
 | ADMIN      | POST        | /movies                        |                              | title, description              | add movie to db                        |
